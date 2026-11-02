@@ -39,9 +39,7 @@ for (let i = 0; i < ratings.length; i++) {
     console.log(titles[i] + " (" + years[i] + ") : " + ratings[i] + " " + label);
 }
 
-const avgText = average.toFixed(1);
-const best = titles[maxIndex];
-alert(`내 영화 ${titles.length}편, 평균 ${avgText}점, 최고는 ${best}`);
+
 
 
 
